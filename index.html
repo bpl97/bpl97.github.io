@@ -9,7 +9,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Grayscale - Start Bootstrap Theme</title>
+    <title>Brandon Lum Portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -33,9 +33,9 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"
+        <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top"</a> 
           >Start Bootstrap</a
-        >
+        > -->
         <button
           class="navbar-toggler navbar-toggler-right"
           type="button"
@@ -59,7 +59,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -74,9 +74,9 @@
           <h2 class="text-white-50 mx-auto mt-2 mb-5">
             Web Developer Portfolio
           </h2>
-          <a href="#about" class="btn btn-primary js-scroll-trigger"
+          <!--- <a href="#about" class="btn btn-primary js-scroll-trigger"
             >Get Started</a
-          >
+          > -->
         </div>
       </div>
     </header>
@@ -86,25 +86,27 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
+            <h2 class="text-white mb-4">Who am I?</h2>
             <p class="text-white-50">
-              Grayscale is a free Bootstrap theme created by Start Bootstrap. It
-              can be yours right now, simply download the template on
-              <a href="http://startbootstrap.com/template-overviews/grayscale/"
-                >the preview page</a
-              >. The theme is open source, and you can use it for any purpose,
-              personal or commercial.
+              My name is Brandon Lum and I am an aspiring web developer who
+              loves focusing on UI/UX specifically. As of December 2019, I will
+              have obtained an AS in Software Development as well as several
+              certificates that have given me exposure to several different
+              languages including HTML, CSS, JavaScript, and Java. I am always
+              looking for new oppurtunities to expand my skillset and learn
+              more!
             </p>
           </div>
         </div>
-        <img src="img/ipad.jpg" class="img-fluid" alt="" />
+        <img src="img/code.jpg" class="img-fluid" alt="" />
       </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="projects-section bg-light">
+    <section id="projects" class="projects-section bg-secondary">
       <div class="container">
-        <!-- Featured Project Row -->
+        <!--
+        
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
           <div class="col-xl-8 col-lg-7">
             <img
@@ -124,11 +126,14 @@
             </div>
           </div>
         </div>
+      -->
 
         <!-- Project One Row -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
-            <img class="img-fluid" src="img/demo-image-01.jpg" alt="" />
+            <a href="https://catch-of-the-day-bpl97.netlify.com/"
+              ><img class="img-fluid" src="img/React_Project.png" alt=""
+            /></a>
           </div>
           <div class="col-lg-6">
             <div class="bg-black text-center h-100 project">
@@ -136,10 +141,13 @@
                 <div
                   class="project-text w-100 my-auto text-center text-lg-left"
                 >
-                  <h4 class="text-white">Misty</h4>
+                  <h4 class="text-white">
+                    React Project on Netlify
+                  </h4>
                   <p class="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
+                    A full stack React project that uses ES6 and JSX. Data
+                    persisted to Firebase. Features OAuth integration with
+                    Twitter, Facebook, and GitHub.
                   </p>
                   <hr class="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -151,7 +159,9 @@
         <!-- Project Two Row -->
         <div class="row justify-content-center no-gutters">
           <div class="col-lg-6">
-            <img class="img-fluid" src="img/demo-image-02.jpg" alt="" />
+            <a href="Bootstrap/index.html"
+              ><img class="img-fluid" src="img/Bootstrap_Project.png" alt=""
+            /></a>
           </div>
           <div class="col-lg-6 order-lg-first">
             <div class="bg-black text-center h-100 project">
@@ -159,11 +169,62 @@
                 <div
                   class="project-text w-100 my-auto text-center text-lg-right"
                 >
-                  <h4 class="text-white">Mountains</h4>
+                  <h4 class="text-white">Single Page Application</h4>
                   <p class="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
+                    Application built from scratch with Bootstrap. Key features
+                    include a collapsible navbar, an image carousel, and
+                    placeholders for social media links.
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 mr-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project Three Row -->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <a href="https://sleepy-cove-53573.herokuapp.com/"
+              ><img class="img-fluid" src="img/NodeJS_Project.png" alt=""
+            /></a>
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-left"
+                >
+                  <h4 class="text-white">NodeJS Form Application</h4>
+                  <p class="mb-0 text-white-50">
+                    A form application that is built with a NodeJS backend. Uses
+                    web APIs, local data persistance, and is deployed on Heroku
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project Four Row -->
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <a href="Tetris/index.html"
+              ><img class="img-fluid" src="img/Tetris.png" alt=""
+            /></a>
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-right"
+                >
+                  <h4 class="text-white">Tetris</h4>
+                  <p class="mb-0 text-white-50">
+                    A classic game of Tetris built with JavaScript. Uses the
+                    canvas to create the play area, then uses arrays to decide
+                    what piece to create. Pieces are drawn into the canvas
+                    according to the timer. The game will alert with directions
+                    at the start and keep score as you go.
                   </p>
                   <hr class="d-none d-lg-block mb-0 mr-0" />
                 </div>
@@ -174,7 +235,7 @@
       </div>
     </section>
 
-    <!-- Signup Section -->
+    <!--
     <section id="signup" class="signup-section">
       <div class="container">
         <div class="row">
@@ -197,9 +258,10 @@
         </div>
       </div>
     </section>
+  -->
 
     <!-- Contact Section -->
-    <section class="contact-section bg-black">
+    <section id="contact" class="contact-section bg-black">
       <div class="container">
         <div class="row">
           <div class="col-md-4 mb-3 mb-md-0">
@@ -209,7 +271,7 @@
                 <h4 class="text-uppercase m-0">Address</h4>
                 <hr class="my-4" />
                 <div class="small text-black-50">
-                  4923 Market Street, Orlando FL
+                  2881 Katmai Ct., West Lafayette IN
                 </div>
               </div>
             </div>
@@ -222,7 +284,7 @@
                 <h4 class="text-uppercase m-0">Email</h4>
                 <hr class="my-4" />
                 <div class="small text-black-50">
-                  <a href="#">hello@yourdomain.com</a>
+                  <a href="#">brandonlum32@gmail.com</a>
                 </div>
               </div>
             </div>
@@ -234,20 +296,28 @@
                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
                 <h4 class="text-uppercase m-0">Phone</h4>
                 <hr class="my-4" />
-                <div class="small text-black-50">+1 (555) 902-8832</div>
+                <div class="small text-black-50">+1 (765) 412-4450</div>
               </div>
             </div>
           </div>
         </div>
 
         <div class="social d-flex justify-content-center">
-          <a href="#" class="mx-2">
+          <a
+            href="https://www.twitter.com/blumdevelopment"
+            target="_blank"
+            class="mx-2"
+          >
             <i class="fab fa-twitter"></i>
           </a>
-          <a href="#" class="mx-2">
-            <i class="fab fa-facebook-f"></i>
+          <a
+            href="https://www.linkedin.com/in/brandon-lum-2a2b88185"
+            target="_blank"
+            class="mx-2"
+          >
+            <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="#" class="mx-2">
+          <a href="https://github.com/bpl97" target="_blank" class="mx-2">
             <i class="fab fa-github"></i>
           </a>
         </div>
@@ -257,7 +327,7 @@
     <!-- Footer -->
     <footer class="bg-black small text-center text-white-50">
       <div class="container">
-        Copyright &copy; Your Website 2019
+        Copyright &copy; Brandon Lum 2019
       </div>
     </footer>
 
